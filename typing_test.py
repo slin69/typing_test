@@ -89,6 +89,7 @@ class Gui:
             self.sm=self.start_time.strftime("%M")
             self.ss=self.start_time.strftime("%S")
             with open("speed.txt","a") as f:
+                #trial
 
                 speed=int((len(textLength)/5)/time*60)
                 f.write(f"{speed}\n")
