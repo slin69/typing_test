@@ -3,7 +3,10 @@ import random
 import datetime
 import math
 root=Tk()
-open("speed.txt","x")
+try:
+    open("speed.txt","x")
+except:
+    print("file already exits")
 class Gui:
     def __init__(self):
         #parts of a sentence
