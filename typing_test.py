@@ -3,6 +3,7 @@ import random
 import datetime
 import math
 root=Tk()
+open("speed.txt","x")
 class Gui:
     def __init__(self):
         #parts of a sentence
